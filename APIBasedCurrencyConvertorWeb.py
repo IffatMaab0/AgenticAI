@@ -4,7 +4,7 @@ import requests as re       ##for making HTTP requests
 amount= st.number_input("Enter the amount ")
 
 
-options = st.selectbox("Select the Country", ["BSD","SLE","KRW","JEP","USD","INR"])
+options = st.selectbox("Select the Country", ["BSD","SLE","KRW","JEP","USD","INR","EUR"])
 
 
 if st.button("Convert"):
